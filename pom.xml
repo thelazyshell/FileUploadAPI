@@ -14,7 +14,7 @@
 	<name>FileUploadSpringBoot</name>
 	<description>This program will validate the excel file and upload the data inside it to the corresponding DB</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
