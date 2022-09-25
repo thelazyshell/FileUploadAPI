@@ -4,7 +4,7 @@
 This repository is a util project for uploading any kind of data from file formats (Excel, CSV, XML) to database. Currently this repository supports Excel file. This repository also extends cronjob as well where you can just write the logic inside your files inside job package and set the time, based on which it will run your customized logic.
 
 ## Prerequisite before working
-- Java 11 (You can go for Open JDK)
+- Java 11 (You can go for Open JDK - https://openjdk.org/projects/jdk/11/)
 - Spring Boot
 - Hibernate
 
