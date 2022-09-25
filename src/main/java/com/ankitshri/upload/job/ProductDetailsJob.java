@@ -18,7 +18,7 @@ public class ProductDetailsJob {
     private FileUploadService uploadService;
 
 
-    @Scheduled(fixedRate = 10000)
+   // @Scheduled(fixedRate = 10000)
     public void execute(){
         List<ProductModel> entriesFromDB = this.uploadService.getEntriesFromDB();
         System.out.println(entriesFromDB.toString());
