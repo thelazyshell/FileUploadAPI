@@ -1,0 +1,12 @@
+import com.ankitshri.upload.entity.dto.CartDetailsDTO;
+global com.ankitshri.upload.entity.dto.CartDiscountDTO cartDiscount;
+
+dialect "mvel"
+
+rule "Total Cart Value Based Discount"
+    when
+        CartDetailsDTO(cartValue > 2000)
+    then
+        System.out.println("Cart value is greater than 2000 hence giving 10% Diwali Discount");
+        cartDiscount.setDiscountPercent(10);
+end
